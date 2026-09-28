@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+.container {
+    max-width: $container-max-width;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: $section-padding;
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    .container {
+        max-width: $container-width-tablet;
+    }
+}
