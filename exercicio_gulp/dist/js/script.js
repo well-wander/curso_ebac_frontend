@@ -1,0 +1,1 @@
+let message="Gulp funcionando!";function showMessage(){console.log(message);var e=document.querySelector("#feedback");e.textContent=message,e.classList.add("visible")}console.log(message);
